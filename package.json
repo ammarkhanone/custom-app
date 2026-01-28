@@ -1,0 +1,21 @@
+{
+  "name": "custom-app",
+  "version": "1.0.0",
+  "description": "The application follows modern JavaScript and TypeScript best practices, with a minimal structure focused on fast builds, serverless execution, and easy scalability.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "nodemon": "latest"
+  }
+}
